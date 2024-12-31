@@ -1,6 +1,12 @@
+import ProjectsList from '../components/ProjectsList';
+import projects from './project-content';
+
 const ProjectListPage = () => {
     return (
-        <h1>This is the project list page!</h1>
+        <>
+        <h1>Projects</h1>
+        <ProjectsList projects={projects} />
+        </>
     );
 }
 
